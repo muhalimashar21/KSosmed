@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:background="@color/colorPutih"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:textAlignment="center"
+        android:layout_height="wrap_content">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginTop="5dp"
+                  android:layout_marginRight="10dp"
+                  android:layout_weight="1"
+                  android:background="@color/colorPutih"
+                  android:gravity="center"
+                  android:orientation="vertical"
+                  android:paddingTop="2dp"
+                  android:paddingRight="5dp"
+                  android:paddingBottom="1dp"
+                  android:layout_marginBottom="5dp"
+                  android:textAlignment="center"
+                  android:layout_height="wrap_content">
+
+        <EditText android:layout_width="match_parent"
+                  android:id="@+id/etPost"
+                  android:ems="10"
+                  android:hint="Apa Yang Anda Pikirkan"
+                  android:inputType="textMultiLine"
+                  android:layout_height="50pt"/>
+        <RelativeLayout android:layout_width="match_parent"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="3dp"
+                        android:paddingRight="3dp"
+                        android:paddingBottom="5dp"
+                        android:background="@color/colorPrimary"
+                        android:layout_height="wrap_content">
+            <ImageView android:layout_width="25dp"
+                       android:id="@+id/iv_gambar"
+                       android:layout_alignParentLeft="true"
+                       android:layout_marginRight="8dp"
+                       android:background="@drawable/ic_file_upload_black_24dp"
+                       android:layout_height="25dp"/>
+
+            <ImageView android:layout_width="25dp"
+                       android:id="@+id/iv_post"
+                       android:layout_alignParentRight="true"
+                       android:layout_marginRight="8dp"
+                       android:background="@drawable/ic_send_black_24dp"
+                       android:layout_height="25dp"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

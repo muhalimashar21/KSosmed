@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "170437547994",
+    "firebase_url": "https://ksosmed-74344.firebaseio.com",
+    "project_id": "ksosmed-74344",
+    "storage_bucket": "ksosmed-74344.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170437547994:android:f7616c2fac9d49b0",
+        "android_client_info": {
+          "package_name": "com.example.ksosmed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170437547994-19a7t76np4pnarr6ihomicnvf3ok8t7q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ksosmed",
+            "certificate_hash": "6a8657f493780de543d11f6faee2a400f94cecd8"
+          }
+        },
+        {
+          "client_id": "170437547994-97su6uduu90b2u7fs71b66frorus07pr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChHe2lVmVXERAMaU5jmT7XTuil4-Bmin4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170437547994-97su6uduu90b2u7fs71b66frorus07pr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
